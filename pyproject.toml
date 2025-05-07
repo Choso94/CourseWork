@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "transaction-analysis"
+version = "0.1.0"
+description = "Application for analyzing transactions from Excel files"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.0"
+requests = "^2.28.0"
+python-dotenv = "^1.0.0"
+pytest = "^7.4.0"
+openpyxl = "^3.1.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
